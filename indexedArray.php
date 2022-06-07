@@ -21,8 +21,8 @@
     <?php
     echo "<br>";
     echo "<br>";
-    sort($month);//using for alphabetical order
-    $arrlength = count($month); //using for loop
+    sort($month);
+    $arrlength = count($month); 
         for ($x=0; $x < $arrlength; $x++) {
             echo $month[$x];
             echo "<br>";
@@ -32,13 +32,11 @@
     <?php
     echo "<br>";
     echo "<br>";
-    foreach ($month as $key => $val) //using foreachloop
+    foreach ($month as $key => $val) 
         { 
         echo "The value of key $key is: $val<br>"; 
         } 
-        /* Only retrieves the value for the current element and 
-        ignores the
-        key */ 
+       
         foreach ($month as $val) { 
         echo "Value: $val<BR>"; }
     ?>
